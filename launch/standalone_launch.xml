@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="rqt_lifecycle" exec="rqt_lifecycle" name="lifecycle_monitor"/>
+</launch>

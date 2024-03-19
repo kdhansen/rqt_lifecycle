@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="Lifecycle Nodes" type="rqt_lifecycle.lifecycle.LifecycleMonitor" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An rqt plugin for monitoring and interacting with the state of lifecycle nodes.
+    </description>
+    <qtgui>
+      <group>
+        <label>Lifecycle</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to ROS topics.</statustip>
+      </group>
+      <label>Lifecycle Nodes</label>
+      <icon type="theme">system-search</icon>
+      <statustip>Monitor and interact with lifecycle nodes.</statustip>
+    </qtgui>
+  </class>
+</library>
